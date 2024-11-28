@@ -1,0 +1,120 @@
+:root {
+  --purple: #301534;
+  --pink: #F8EEFF;
+  --white: #FFFFFF;
+}
+
+* {
+  margin: 0px;
+  padding: 0.1px;
+  box-sizing: border-box;
+}
+
+
+@font-face {
+  font-family: 'WorkSans';
+  src: url('fonts/WorkSans-VariableFont_wght.ttf')
+}
+
+body {
+  font-family: 'WorkSans';
+}
+
+li {
+  list-style: none;
+}
+
+
+/*
+
+
+
+Container styles
+
+
+
+*/
+
+
+.container {
+  width: 1440px;
+  height: 900px;
+  margin: 200px auto;
+  background-color: var(--pink);
+  background-image: url('images/background-pattern-desktop.svg');
+  background-repeat: no-repeat;
+  background-position: 0vw 0vh;
+  margin-top: 20px;
+}
+
+
+
+/*
+
+
+
+
+Card styles
+
+
+
+
+*/
+
+
+
+.faq-card {
+  height: 565px;
+  width: 600px;
+  background-color: var(--white);
+  margin: 50px auto;
+  border-radius: 20px;
+  background-image: url('images/icon-star.svg');
+  background-repeat: no-repeat;
+  background-position: 40px 53px;
+  padding-left: 40px;
+}
+
+
+.faq-card-header {
+  height: 66px;
+  width: 520px;
+  padding-left: 75px;
+  margin-top: 40px;
+}
+
+.faq-card-header h1 {
+  font-size: 56px;
+  color: var(--purple);
+}
+
+
+
+
+/*
+
+
+
+
+
+Card question and answer css
+
+
+
+
+*/
+
+
+.faq-card-qa {
+  width: 520px;
+  margin-top: 32px;
+  color: var(--purple);
+}
+
+.qa-li h2 {
+  font-size: 18px;
+}
+
+.qa-li p {
+  display: none;
+}
