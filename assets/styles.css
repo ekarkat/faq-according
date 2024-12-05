@@ -114,19 +114,8 @@ Card question and answer css
   padding-top: 28px;
   position: relative;
   cursor: pointer;
-  user-select: none;
-}
 
-.qa-li:active {
-  background-color: transparent;
-}
-
-.qa-li:focus {
-  background-color: transparent;
-}
-
-.qa-li:hover {
-  background-color: transparent;
+  -webkit-tap-highlight-color: transparent; /* remove the blue effect when select an item */
 }
 
 .questions-list > li:last-child {
